@@ -4,6 +4,9 @@ import React from 'react';
 const  Dashboard=() =>{
   return <>
  
+
+
+ 
   <div className="navbar">
     <h1></h1>    </div>
     <div className="dropdown">
@@ -12,7 +15,7 @@ const  Dashboard=() =>{
       <button className="dropbtn"><i className="fa fa-th"></i>     
       </button>
       <div className="dropdown-content hide">
-        <a href="/Dashbonard"><i font-size="8px" className="fa fa-tachometer"></i>  Dashboard Module</a>        
+        <a href="/Dashboard"><i font-size="8px" className="fa fa-tachometer"></i>  Dashboard Module</a>        
           <a href='/settings'><i font-size="8px" className="fa">&#xf0e3;</i>  Repair Module</a>
         <a href='/Companymodule'><i font-size="8px" className="fa">&#xf044;</i>  Componay Module</a>
         <a href='/userModule'><i font-size="8px" className="fa">&#xf0c0;</i> userModule</a>
@@ -36,13 +39,11 @@ const  Dashboard=() =>{
   </div>
   <section className="text-white body-font">
     <div className="container px-16 py-4 mx-auto">
-      <div className="flex flex-col  w-full mb-20">
-        <h1 className="sm:text text-2xl font-medium title-font  text-[#51D8af]">
+      <div className="flex flex-col  w-full mb-20 ">
+        <h1 className="sm:text text-2xl font-medium title-font  " style={{ color: "#51d8af" }}>
           Classic Dashboard
         </h1>
-        <p className="lg:w-2/3 text-red leading-relaxed text-base">
-          Creativity Crafted Dashboard for your needs
-        </p>
+        <h1 style={{ color: "#c6c6c6" }}>Creativity Crafted Dashboard for your needs</h1>
       </div>
       <div className="flex  -m-4 text-center">
         <div className="p-8 md:w-1/4 sm:w-1/2 w-full">
@@ -63,7 +64,8 @@ const  Dashboard=() =>{
             <h2 className="title-font text-center py-0 px-6 font-medium  text-3xl text-white ">
               27
             </h2>
-            <p className="leading-relaxed  text-white ">Pending Repairs</p>
+           
+            <h1 style={{ color: "#c6c6c6" }}>Pending Repairs</h1>
           </div>
         </div>
         <div className="p-8 md:w-1/4 sm:w-1/2 w-full">
@@ -84,7 +86,7 @@ const  Dashboard=() =>{
             <h2 className="title-font font-medium text-3xl text-gray-100">
               1.3K
             </h2>
-            <p className="leading-relaxed text-slate-400">Total Users</p>
+            <h1 style={{ color: "#c6c6c6" }}>Total Users</h1>
           </div>
         </div>
         <div className="p-8 md:w-1/4 sm:w-1/2 w-full">
@@ -104,7 +106,7 @@ const  Dashboard=() =>{
             <h2 className="title-font font-medium text-3xl text-gray-100">
               74
             </h2>
-            <p className="leading-relaxed text-slate-400">Total Repairs</p>
+            <h1 style={{ color: "#c6c6c6" }}>Total Repairs</h1>
           </div>
         </div>
         <div className="p-8 md:w-1/4 sm:w-1/2 w-full">
@@ -123,13 +125,71 @@ const  Dashboard=() =>{
             <h2 className="title-font font-medium text-3xl text-gray-100">
               46
             </h2>
-            <p className="leading-relaxed text-slate-400">Complete Repairs</p>
+            <h1 style={{ color: "#c6c6c6" }}>Complete Repairs</h1>
           </div>
         </div>
       </div>
     </div>
   </section>
 </>
+
+
+
+<nav className="sidebar close ">
+  <header>
+    <div className="relative  ...">
+      <div className="absolute left-0 ..." />
+      <img src="/public/MoRIS-1 (1).png" alt="" />
+    </div>
+    <i className="bx bx-chevron-right toggle" />
+  </header>
+  <div className="menu-bar">
+    <div className="menu">
+      <ul className="menu-links">
+        <li className="nav-link">
+          <a href="/dashboard">
+            <i className="bx bx-home-alt icon" />
+            <span className="text nav-text">Dashboard</span>
+          </a>
+        </li>
+        <li className="nav-link">
+          <a href="/tabs">
+            <i className="bx bx-bar-chart-alt-2 icon" />
+            <span className="text nav-text">Pending Repairs</span>
+          </a>
+        </li>
+        <li className="nav-link">
+          <a href="/settings">
+            <i className="bx bx-bell icon" />
+            <span className="text nav-text">Repair History</span>
+          </a>
+        </li>
+        <li className="nav-link">
+          <a href="/users">
+            <i className="bx bx-pie-chart-alt icon" />
+            <span className="text nav-text">Repair Form</span>
+          </a>
+        </li>
+        <li className="nav-link">
+          <a href="/example">
+            <i className="bx bx-heart icon" />
+            <span className="text nav-text">Repair sets</span>
+          </a>
+        </li>
+        <div className="bottom-content">
+          <li className="">
+            <a href="https://symmis.symcloud.net/auth/login/">
+              <i className="bx bx-log-out icon" />
+              <span className="text nav-text">Logout</span>
+            </a>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
 
 <footer>
   <div className="text-center absolute inset-x-0 bottom-0 h-6 ">

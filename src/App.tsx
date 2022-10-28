@@ -11,8 +11,7 @@ function App() {
     <div className="app">
      
      {/** Sidebar */}
-     <Sidebar/>
-
+    
      {/** Inner container */}
     <MainRoutes/>
     </div>
