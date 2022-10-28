@@ -3,6 +3,7 @@ import {Link, useLocation, useNavigate} from "react-router-dom"
 
 import {navigationItems} from "../config"
 
+
 const Sidebar = () => {
 	const useAuth = () => {
 		const user = localStorage.getItem("user")
