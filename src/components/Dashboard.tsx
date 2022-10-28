@@ -15,7 +15,7 @@ const  Dashboard=() =>{
       <button className="dropbtn"><i className="fa fa-th"></i>     
       </button>
       <div className="dropdown-content hide">
-        <a href="/Dashboard"><i font-size="8px" className="fa fa-tachometer"></i>  Dashboard Module</a>        
+        <a href="/Dashboard"><i font-size="8px" className="fa fa-tachometer"></i>   Dashboard Module</a>        
           <a href='/settings'><i font-size="8px" className="fa">&#xf0e3;</i>  Repair Module</a>
         <a href='/Companymodule'><i font-size="8px" className="fa">&#xf044;</i>  Componay Module</a>
         <a href='/userModule'><i font-size="8px" className="fa">&#xf0c0;</i> userModule</a>
