@@ -136,6 +136,17 @@ form.example::after {
   clear: both;
   display: table;
 }
+.search {
+  background: #034789;
+  width: 70px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.search:hover {
+  background: #51d8af;
+}
+
 .dashboard h1{
 
   color:#e8f0f5;

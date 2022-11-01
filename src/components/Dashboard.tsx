@@ -29,10 +29,10 @@ const  Dashboard=() =>{
     <div className="flex border-2 border-[#c6c6c6] rounded">
       <input
         type="text"
-        className="px-4 py-2 w-32"
+        className="px-2 py-2 w-32"
         placeholder="Repair ID..."
       />
-      <button className="px-2 text-[#c6c6c6] bg-[#034789]  hover:bg-[#51D8af] hover:bg-opacity-36 border-l ">
+      <button className="search px-2   border-l   " style={{ color: "white"  }}> 
         Search
       </button>
     </div>
