@@ -9,9 +9,10 @@ const  Dashboard=() =>{
  
   <div className="navbar">
     <h1></h1>    </div>
+    
+    <h2 className="tst">Admin<i className="fa fa-users"></i></h2>
+    
     <div className="dropdown">
-    <button className="tst">Admin<i className="fa fa-users"></i></button>
-  
       <button className="dropbtn"><i className="fa fa-th"></i>     
       </button>
       <div className="dropdown-content hide ">
@@ -37,13 +38,13 @@ const  Dashboard=() =>{
       </button>
     </div>
   </div>
-  <section className="text-white body-font">
-    <div className="container px-16 py-4 mx-auto">
+  <section className="text-white py-11 body-font">
+    <div className="container px-20 py-10 mx-auto">
       <div className="flex flex-col  w-full mb-20 ">
-        <h1 className="sm:text text-2xl font-medium title-font  " style={{ color: "#51d8af" }}>
+        <h1 className="sm:text py-0 text-2xl font-medium title-font  " style={{ color: "#51d8af" }}>
           Classic Dashboard
         </h1>
-        <h1 style={{ color: "#c6c6c6" }}>Creativity Crafted Dashboard for your needs</h1>
+        <h1  style={{ color: "#c6c6c6" }}>Creativity Crafted Dashboard for your needs</h1>
       </div>
       <div className="flex  -m-4 text-center">
         <div className="p-8 md:w-1/4 sm:w-1/2 w-full">
