@@ -136,6 +136,7 @@ form.example::after {
   clear: both;
   display: table;
 }
+
 .search {
   background: #034789;
   width: 70px;
@@ -248,7 +249,7 @@ margin-left: 2px;
   z-index: 100;  
 }
 .sidebar.close{
-  width: 70px;
+  width: 80px;
 }
 
 /* ===== Reusable code - Here ===== */
@@ -291,6 +292,12 @@ margin-left: 2px;
 .sidebar.close .text{
   opacity: 0;
 }
+.pic {
+  background-image: url("/public/MoRIS-1 (1).png");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
 /* =========================== */
 
 .sidebar header{
@@ -306,6 +313,7 @@ margin-left: 2px;
   flex-direction: column;
 }
 header .image-text .name {
+  background-image: url("/public/MoRIS-1 (1).png");
   margin-top: 4px;
   font-size: 18px;
   font-weight: 600;
@@ -356,7 +364,7 @@ body.dark .sidebar header .toggle{
 }
 
 .sidebar .menu{
-  margin-top: 130px;
+  margin-top: 70px;
 }
 
 .sidebar li.search-box{

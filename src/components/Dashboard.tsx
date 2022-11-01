@@ -14,7 +14,7 @@ const  Dashboard=() =>{
   
       <button className="dropbtn"><i className="fa fa-th"></i>     
       </button>
-      <div className="dropdown-content hide">
+      <div className="dropdown-content hide ">
         <a href="/Dashboard"><i font-size="8px" className="fa fa-tachometer"></i>   Dashboard Module</a>        
           <a href='/settings'><i font-size="8px" className="fa">&#xf0e3;</i>  Repair Module</a>
         <a href='/Companymodule'><i font-size="8px" className="fa">&#xf044;</i>  Componay Module</a>
@@ -137,7 +137,7 @@ const  Dashboard=() =>{
 
 <nav className="sidebar close ">
   <header>
-    <div className="relative  ...">
+    <div className=" pic relative  ...">
       <div className="absolute left-0 ..." />
       <img src="/public/MoRIS-1 (1).png" alt="" />
     </div>
